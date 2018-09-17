@@ -1,0 +1,3 @@
+Species	Chemical Name	Freq-GHz	Freq Err	Resolved QNs	Log<sub>10</sub> (A<sub>ij</sub>)	E_L (cm^-1)	E_L (K)	E_U (cm^-1)	E_U (K)	Linelist
+CH3OHvt=0	Methanol	686.73146	1.5E-5	9(3,7)-8(2,6)++	-2.87175	84.30100	121.28964	107.20790	154.24736	CDMS
+CH3OHvt=0	Methanol	687.22456	1.5E-5	9(3,6)-8(2,7)--	-2.87171	84.28500	121.26662	107.20834	154.24801	CDMS
