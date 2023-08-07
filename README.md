@@ -4,7 +4,7 @@ This repository contains the files for the Leiden-ESA Astrophysics Summer Progra
 
 ## Steps
 
-1. Queried JPL and CDMS database for Acetaldehyde, Methanol, and Methyl Formate pure rotational transitions in the spw passbands. 
+1. Queried JPL and CDMS database for Acetaldehyde, Methanol, and Methyl Formate pure rotational transitions in the spw passbands (`DetectionFiles/SplatalogueQuery.py`)
 	- spw 0a/b was temporarily ignored due to an apparent velocity offset of -2 km/s in the reduced data -- found to not have an offset by Mihkel via LTE model
     - used a lower limit of log10(Aij)=-5 for the Einstein coefficients; checked this by confirming detections with the lowest Einstein coefficient in each molecule (since this value might be dependent on the molecule)
     - used an upper limit of 1E3 K for the upper energy level
